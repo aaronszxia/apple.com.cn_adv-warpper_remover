@@ -1,3 +1,6 @@
+# readme.md
+
+```javascript
 // ==UserScript==
 // @name         苹果官网广告栏移除小助手
 // @namespace    http://tampermonkey.net/
@@ -17,3 +20,4 @@
     var html = document.getElementsByTagName("html");
     html[0].style.setProperty("margin-top","0","important");
 })();
+```
